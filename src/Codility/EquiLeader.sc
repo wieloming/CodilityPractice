@@ -7,10 +7,7 @@
 // ..., A[N − 1] have leaders of the same value.
 //
 //For example, given array A such that:
-
-// 4 3 4 4 4 2
-// 4 : 4 4 : 4
-// 4 : 4 4 : 2
+//4,3,4,4,4,2
 //we can find two equi leaders:
 //
 //0, because sequences: (4) and (3, 4, 4, 4, 2) have the same leader, whose value is 4.

@@ -19,7 +19,8 @@ solution("AC", Array(0,0,1), Array(0,1,1))
 //
 //The answers to these M = 3 queries are as follows:
 //
-//  The part of the DNA between positions 2 and 4 contains nucleotides G and C (twice), whose impact factors are 3 and 2 respectively, so the answer is 2.
+//The part of the DNA between positions 2 and 4 contains nucleotides G and C (twice),
+//hose impact factors are 3 and 2 respectively, so the answer is 2.
 //The part between positions 5 and 5 contains a single nucleotide T, whose impact factor is 4, so the answer is 4.
 //The part between positions 0 and 6 (the whole string) contains all nucleotides, in particular nucleotide A whose impact factor is 1, so the answer is 1.
 //

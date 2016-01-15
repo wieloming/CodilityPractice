@@ -1,4 +1,3 @@
-import scala.annotation.tailrec
 import scala.collection.mutable
 
 //You have to climb up a ladder.

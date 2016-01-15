@@ -20,9 +20,7 @@ def solution(X: Int, A: Array[Int]): Int = {
   second
 }
 def solution2(X: Int, A: Array[Int]): Int = {
-  val N = A.length
   val leaves = Array.fill(X)(-1)
-
   A.indices.foreach { ind =>
     if (leaves(A(ind) - 1) == -1)
       leaves(A(ind) - 1) = ind
