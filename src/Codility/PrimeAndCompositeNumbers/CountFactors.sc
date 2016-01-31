@@ -3,15 +3,14 @@
 //condition (24 = 6 * 4).
 //
 def solution(N: Int): Int = {
-  if (N == 1) 1
-  else {
-    var factorCount = 2
-    val root = Math.sqrt(N).toInt
-    for (i <- 2 to root) {
-      if (N % i == 0) factorCount += 2
-    }
-    factorCount
+  var divisor = 1
+  var factors = 0
+  while (divisor * divisor < N) {
+    if (N % divisor == 0) factors += 2
+    divisor += 1
   }
+  if (divisor * divisor == N) factors += 1
+  factors
 }
 solution(24)
 solution(1)
