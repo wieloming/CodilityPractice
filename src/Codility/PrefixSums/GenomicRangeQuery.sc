@@ -14,7 +14,6 @@
 //between positions 5 and 5 T -> 4, so the answer is 4.
 //psitions 0 and 6 all nucleotides A whose impact factor is 1, so the answer is 1.
 //
-import collection.mutable.ArrayBuffer
 def solution(S: String, P: Array[Int], Q: Array[Int]): Array[Int] = {
   val values = S.view.par.map{
     case 'A' => 1
@@ -22,12 +21,8 @@ def solution(S: String, P: Array[Int], Q: Array[Int]): Array[Int] = {
     case 'G' => 3
     case 'T' => 4
   }
-  val reslut = ArrayBuffer[Int]()
-  for(n <- P.indices){
-    reslut += values.slice(P(n), Q(n)+1).min
+  (P zip Q) map {case (p, q) => values.slice(p, q+1).min}
   }
-  reslut.toArray
-}
 solution("CAGCCTA", Array(2,5,0), Array(4,5,6))
 //the function should return the values [2, 4, 1], as explained above.
 //N is an integer within the range [1..100,000];

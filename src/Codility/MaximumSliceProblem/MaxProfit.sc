@@ -28,13 +28,7 @@ def solution(A: Array[Int]) = {
   if (A == null || A.length == 0) 0
   else {
     def removePreviousFromEach(A: Array[Int]): Array[Int] = {
-      var prev = A(0)
-      for (ind <- 1 until A.length) {
-        val current = A(ind)
-        A(ind) = current - prev
-        prev = current
-      }
-      A
+      (A zip 0 +: A.init) map { case (a, b) => a - b }
     }
     val differences = removePreviousFromEach(A)
     var maxProfit = 0

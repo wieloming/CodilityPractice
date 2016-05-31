@@ -26,12 +26,8 @@ def solution(A: Array[Int]): Int = {
     }.maxBy(_._2)._1
   }
   def getLeaderOccurencesTillIndex(A: Array[Int], candidate: Int): Array[Int] = {
-    val occurrences = new Array[Int](A.length)
-    for (ind <- A.indices) {
-      if (ind > 0) occurrences(ind) = occurrences(ind - 1)
-      if (A(ind) == candidate) occurrences(ind) += 1
-    }
-    occurrences
+    A.scanLeft(0) { (acc, el) => if (el == candidate) acc + 1 else acc }
+      .tail
   }
   if (A == null || A.length == 0) 0
   else {
