@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c75be2-f587-4cca-be45-b4e7268ad3f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodilityTraining.iml" afterPath="$PROJECT_DIR$/CodilityTraining.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/Leader/EquiLeader.sc" afterPath="$PROJECT_DIR$/src/Codility/Leader/EquiLeader.sc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/PrefixSums/GenomicRangeQuery.sc" afterPath="$PROJECT_DIR$/src/Codility/PrefixSums/GenomicRangeQuery.sc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxProfit.sc" afterPath="$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxProfit.sc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/Sorting/Triangle.sc" afterPath="$PROJECT_DIR$/src/Codility/Sorting/Triangle.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountSemiprimes.sc" afterPath="$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountSemiprimes.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/Leader/Dominator.sc" afterPath="$PROJECT_DIR$/src/Codility/Leader/Dominator.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/FibonacciNumbers/FibFrog.sc" afterPath="$PROJECT_DIR$/src/Codility/FibonacciNumbers/FibFrog.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/CountingElements/MaxCounters.sc" afterPath="$PROJECT_DIR$/src/Codility/CountingElements/MaxCounters.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/MaxNonoverlappingSegments.sc" afterPath="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/MaxNonoverlappingSegments.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc" afterPath="$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/TimeComplexity/TapeEquilibrium.sc" afterPath="$PROJECT_DIR$/src/Codility/TimeComplexity/TapeEquilibrium.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/TieRopes.sc" afterPath="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/TieRopes.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodilityTraining.iws" />
@@ -34,10 +37,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Brackets.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinAbsSumOfTwo.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11313868">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxCounters.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Codility/CountingElements/MaxCounters.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.58759123">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OddOccurrencesInArray.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/Arrays/OddOccurrencesInArray.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0">
+            <state vertical-scroll-proportion="-5.25">
               <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding />
             </state>
@@ -47,8 +80,8 @@
       <file leaf-file-name="PolygonConcavityIndex.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/FutureTraining/PolygonConcavityIndex.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="-21.0">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -57,8 +90,8 @@
       <file leaf-file-name="FibFrog.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/FibonacciNumbers/FibFrog.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.48540145">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -67,8 +100,8 @@
       <file leaf-file-name="MaxNonoverlappingSegments.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/GreedyAlgorithms/MaxNonoverlappingSegments.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.56569344">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -77,8 +110,8 @@
       <file leaf-file-name="TieRopes.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/GreedyAlgorithms/TieRopes.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.58759123">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -87,8 +120,8 @@
       <file leaf-file-name="Dominator.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/Leader/Dominator.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.43430656">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -97,8 +130,8 @@
       <file leaf-file-name="EquiLeader.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/Leader/EquiLeader.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2591241">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state vertical-scroll-proportion="-10.583333">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -107,7 +140,7 @@
       <file leaf-file-name="MaxDoubleSliceSum.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxDoubleSliceSum.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.75">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
@@ -117,7 +150,7 @@
       <file leaf-file-name="MaxProfit.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxProfit.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38686132">
+            <state vertical-scroll-proportion="-8.833333">
               <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
             </state>
@@ -147,7 +180,7 @@
       <file leaf-file-name="GenomicRangeQuery.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/PrefixSums/GenomicRangeQuery.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6131387">
+            <state vertical-scroll-proportion="-14.0">
               <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
               <folding />
             </state>
@@ -157,7 +190,7 @@
       <file leaf-file-name="MinAvgTwoSlice.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/PrefixSums/MinAvgTwoSlice.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.75">
+            <state vertical-scroll-proportion="9.833333">
               <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
@@ -177,8 +210,8 @@
       <file leaf-file-name="CountNonDivisible.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountNonDivisible.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.5">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.5840708">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -187,8 +220,8 @@
       <file leaf-file-name="CountSemiprimes.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountSemiprimes.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.5">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.689781">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -207,18 +240,8 @@
       <file leaf-file-name="Triangle.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/Sorting/Triangle.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Brackets.sc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -237,8 +260,8 @@
       <file leaf-file-name="TapeEquilibrium.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/TimeComplexity/TapeEquilibrium.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.5620438">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -247,7 +270,7 @@
       <file leaf-file-name="MinMaxDivision.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/BinarySearchAlgorithm/MinMaxDivision.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.0">
+            <state vertical-scroll-proportion="3.5">
               <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
@@ -257,7 +280,7 @@
       <file leaf-file-name="NailingPlanks.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/BinarySearchAlgorithm/NailingPlanks.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.5">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
@@ -268,26 +291,6 @@
         <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/CountDistinctSlices.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinAbsSumOfTwo.sc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.25">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxCounters.sc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Codility/CountingElements/MaxCounters.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.25">
               <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
@@ -307,8 +310,8 @@
       <file leaf-file-name="NumberSolitaire.sc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6131387">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.33211678">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -334,9 +337,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Codility/PrefixSums/MinAvgTwoSlice.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/Sorting/MaxProductOfThree.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/Sorting/Distinct.sc" />
         <option value="$PROJECT_DIR$/src/Codility/Sorting/DiscIntersections.sc" />
         <option value="$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc" />
         <option value="$PROJECT_DIR$/src/Codility/StacksAndQueues/Fish.sc" />
@@ -351,11 +351,8 @@
         <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/MinPerimeterRectangle.sc" />
         <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/Flags.sc" />
         <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/Peaks.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountSemiprimes.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountNonDivisible.sc" />
         <option value="$PROJECT_DIR$/src/Codility/EuclideanAlgorithm/ChocolatesByNumbers.sc" />
         <option value="$PROJECT_DIR$/src/Codility/EuclideanAlgorithm/CommonPrimeDivisors.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/FibonacciNumbers/FibFrog.sc" />
         <option value="$PROJECT_DIR$/src/Codility/1.sc" />
         <option value="$PROJECT_DIR$/src/Codility/2.sc" />
         <option value="$PROJECT_DIR$/src/3.sc" />
@@ -368,9 +365,6 @@
         <option value="$PROJECT_DIR$/src/Codility/Utils.scala" />
         <option value="$PROJECT_DIR$/src/Codility/CaterpillarMethod/Utils.scala" />
         <option value="$PROJECT_DIR$/src/Codility/CaterpillarMethod/CountTriangles.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/MaxNonoverlappingSegments.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/TieRopes.sc" />
         <option value="$PROJECT_DIR$/src/Codility/DynamicProgramming/MinAbsSum.sc" />
         <option value="$PROJECT_DIR$/src/Codility/IndeedPrimeChallenge/DwarfsRafting.sc" />
         <option value="$PROJECT_DIR$/src/Codility/Old/MissingInteger.sc" />
@@ -385,6 +379,15 @@
         <option value="$PROJECT_DIR$/src/Codility/PrefixSums/GenomicRangeQuery.sc" />
         <option value="$PROJECT_DIR$/src/Codility/Sorting/Triangle.sc" />
         <option value="$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/FibonacciNumbers/FibFrog.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/MaxNonoverlappingSegments.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/TieRopes.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/Leader/Dominator.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountNonDivisible.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountSemiprimes.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/TimeComplexity/TapeEquilibrium.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/CountingElements/MaxCounters.sc" />
       </list>
     </option>
   </component>
@@ -404,9 +407,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -453,7 +456,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -492,8 +496,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -785,6 +788,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -831,43 +840,44 @@
       <option name="number" value="Default" />
       <updated>1452277909927</updated>
       <workItem from="1464699622743" duration="5775000" />
+      <workItem from="1464782890403" duration="5735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5775000" />
+    <option name="totallyTimeSpent" value="11510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19513543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32604167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16583748" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32604167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -917,6 +927,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Codility/BinarySearchAlgorithm/NailingPlanks.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/CountDistinctSlices.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/CountingElements/MaxCounters.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/CountingElements/MissingInteger.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/FutureTraining/PolygonConcavityIndex.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -992,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,47 +1081,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codility/Arrays/OddOccurrencesInArray.sc">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar!/scala/Array.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
+        <state vertical-scroll-proportion="0.52834743">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar!/scala/collection/TraversableLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34452736">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/FutureTraining/PolygonConcavityIndex.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="-21.0">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/FibonacciNumbers/FibFrog.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.48540145">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/GreedyAlgorithms/MaxNonoverlappingSegments.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.56569344">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/GreedyAlgorithms/TieRopes.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.58759123">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/Leader/Dominator.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43430656">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/Leader/EquiLeader.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.583333">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxDoubleSliceSum.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
@@ -1072,33 +1151,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar!/scala/Array.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52834743">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codility/Leader/EquiLeader.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2591241">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxDoubleSliceSum.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.75">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxProfit.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38686132">
+        <state vertical-scroll-proportion="-8.833333">
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding />
         </state>
@@ -1122,7 +1177,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/PrefixSums/GenomicRangeQuery.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6131387">
+        <state vertical-scroll-proportion="-14.0">
           <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           <folding />
         </state>
@@ -1130,7 +1185,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/PrefixSums/MinAvgTwoSlice.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.75">
+        <state vertical-scroll-proportion="9.833333">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
@@ -1146,16 +1201,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountNonDivisible.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.5">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.5840708">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountSemiprimes.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.5">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.689781">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1176,9 +1231,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/Arrays/OddOccurrencesInArray.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.25">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
@@ -1194,23 +1257,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/TimeComplexity/TapeEquilibrium.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.5620438">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/BinarySearchAlgorithm/MinMaxDivision.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.0">
+        <state vertical-scroll-proportion="3.5">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11313868">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/BinarySearchAlgorithm/NailingPlanks.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
@@ -1224,18 +1295,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.25">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/CountingElements/MaxCounters.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.25">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.58759123">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1248,18 +1311,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar!/scala/collection/TraversableLike.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34452736">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6131387">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.33211678">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -12,29 +12,16 @@
 //The abs sum of two for the pair (1, 1) is A[1] + A[1] = |4 + 4| = 8.
 //The abs sum of two for the pair (1, 2) is A[1] + A[2] = |4 + (−3)| = 1.
 //The abs sum of two for the pair (2, 2) is A[2] + A[2] = |(−3) + (−3)| = 6.
-//int N = A.length;
-//Arrays.sort(A);
-//int tail = 0;
-//int head = N - 1;
-//int minAbsSum = Math.abs(A[tail] + A[head]);
-//while (tail <= head) {
-//  int currentSum = A[tail] + A[head];
-//  minAbsSum = Math.min(minAbsSum, Math.abs(currentSum));
-//  if (currentSum <= 0)
-//    tail++;
-//  else
-//    head--;
-//}
-//return minAbsSum;
+
 def solution(A: Array[Int]): Int = {
   val array = A.sorted
   var headIndex = 0
-  var tailIndex = array.length - 1
-  var min = Math.abs(array(headIndex) + array(tailIndex))
-  while(headIndex <= tailIndex){
-    val sum = array(headIndex) + array(tailIndex)
+  var lastIndex = array.length - 1
+  var min = Math.abs(array(headIndex) + array(lastIndex))
+  while(headIndex <= lastIndex){
+    val sum = array(headIndex) + array(lastIndex)
     min = Math.min(min, Math.abs(sum))
-    if(sum > 0)  tailIndex -=1
+    if(sum > 0)  lastIndex -=1
     else headIndex += 1
   }
   min

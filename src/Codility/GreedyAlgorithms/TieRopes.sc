@@ -29,19 +29,19 @@
 //to K = 4. It is not possible to produce four such ropes.
 //
 def solution(K: Int, A: Array[Int]): Int = {
-  if(A.length == 1 && A.max >= K) return A.length
+  if (A.length == 1 && A.max >= K) return A.length
   var ropes = 0
   var curr = A.head
-  for(a <- A.tail){
-    if(curr + a < K) curr += a
-    else{
+  for (a <- A.tail) {
+    if (curr + a < K) curr += a
+    else {
       ropes += 1
       curr = 0
     }
   }
   ropes
 }
-solution(4, Array(1,2,3,4,1,1,3))
+solution(4, Array(1, 2, 3, 4, 1, 1, 3))
 solution(1, Array(1))
 solution(2, Array(1))
 //

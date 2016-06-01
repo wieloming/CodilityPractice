@@ -3,9 +3,9 @@
 // 0 0 0 1 1 0 1 0 0 0 0
 //The frog can make three jumps of length F(5) = 5, F(3) = 2 and F(5) = 5.
 def solution(A: Array[Int]): Int = {
-  if(A.isEmpty) return 1
+  if (A.isEmpty) return 1
   lazy val fibs: Stream[Int] = 0 #:: fibs.scanLeft(1)(_ + _)
-  val fibonacci = fibs.takeWhile(_ < A.length+1).tail.tail
+  val fibonacci = fibs.takeWhile(_ < A.length + 1).tail.tail
   val minimumJumps = new Array[Int](A.length)
   var currentPositions = List[Int]()
   var nextPositions = List(-1)
@@ -14,13 +14,14 @@ def solution(A: Array[Int]): Int = {
     jumpsNumber += 1
     currentPositions = nextPositions
     nextPositions = List[Int]()
-    for (position <- currentPositions) {
-      for (jump <- fibonacci; if position + jump <= A.length) {
-        if (position+jump == A.length) return jumpsNumber
-        if (A(position+jump) == 1 && minimumJumps(position+jump) == 0) {
-          minimumJumps(position+jump) = jumpsNumber
-          nextPositions ::= position+jump
-        }
+    for {
+      position <- currentPositions
+      jump <- fibonacci if position + jump <= A.length
+    } {
+      if (position + jump == A.length) return jumpsNumber
+      if (A(position + jump) == 1 && minimumJumps(position + jump) == 0) {
+        minimumJumps(position + jump) = jumpsNumber
+        nextPositions ::= position + jump
       }
     }
   }

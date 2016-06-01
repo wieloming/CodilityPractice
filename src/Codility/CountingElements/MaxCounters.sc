@@ -13,23 +13,20 @@ def solution(N: Int, A: Array[Int]) = {
   val counters = Array.fill(N)(0)
   var currentMax = 0
   var settledMax = 0
-  for(n <- A){
-    if(n >= 1 && n <= N) {
-      var oldValue = counters(n-1)
-        if(oldValue < settledMax) {
-        oldValue = settledMax
-      }
+  for (n <- A) {
+    if (n >= 1 && n <= N) {
+      var oldValue = counters(n - 1)
+      oldValue = oldValue max settledMax
       val newValue = oldValue + 1
-      counters(n-1) = newValue
-      if(newValue > currentMax) currentMax = newValue
-    }
-    else if(n == N + 1){
+      counters(n - 1) = newValue
+      currentMax = currentMax max newValue
+    } else if (n == N + 1) {
       settledMax = currentMax
     }
   }
-  counters.map(c => if(c < settledMax) settledMax else c)
+  counters.map(c => if (c < settledMax) settledMax else c)
 }
-solution(5, Array(3,4,4,6,1,4,4)).toList
+solution(5, Array(3, 4, 4, 6, 1, 4, 4)).toList
 //For example, given integer N = 5
 //A[0] = 3
 //A[1] = 4

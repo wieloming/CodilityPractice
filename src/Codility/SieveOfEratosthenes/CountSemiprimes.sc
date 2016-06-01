@@ -34,9 +34,7 @@ def solution(N: Int, P: Array[Int], Q: Array[Int]) = {
     }
     nf == 2
   }
-  val semiprimes = (1 to N).scanLeft(0) {
-    (acc, el) => if (isSP(el)) acc + 1 else acc
-  }.view
+  val semiprimes = (1 to N).scanLeft(0)((acc, el) => if (isSP(el)) acc + 1 else acc).view
   (P zip Q).map { case (a, b) => semiprimes(b) - semiprimes(a-1) }
 }
 solution(26, Array(1, 4, 16), Array(26, 10, 20))

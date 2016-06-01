@@ -17,15 +17,17 @@
 def solution(A: Array[Int]): Int ={
   if(A.length == 1) -1
   else{
-    var first = A.head
-    var second = A.sum - first
-    var result = Math.abs(first - second)
-    for(n <- A.tail.init){
-      first += n
-      second -= n
-      if(Math.abs(first - second) < result) result = Math.abs(first - second)
+    //parts:
+    val first = A.head
+    val second = A.sum - first
+    val diff = Math.abs(first - second)
+    val middle = A.tail.init
+
+    val (minDifference, _, _) = middle.foldLeft((diff, first, second)) { case ((acc, f, s), el) =>
+      val newResult = Math.abs(f - s) min acc
+      (newResult, f + el, s - el)
     }
-    result
+    minDifference
   }
 }
 solution(Array(3,1,2,4,3))
@@ -33,7 +35,8 @@ solution(Array(3))
 solution(Array(3,1))
 solution(Array(-1000, 1000))
 solution(Array(-10, -20, -30, -40, 100))
-//that, given a non-empty zero-indexed array A of N integers, returns the minimal difference that can be achieved.
+//that, given a non-empty zero-indexed array A of N integers, returns the minimal difference
+// that can be achieved.
 //
 //For example, given:
 //A[0] = 3

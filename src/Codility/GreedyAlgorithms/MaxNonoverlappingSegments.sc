@@ -21,19 +21,19 @@
 //{0, 2, 3}, {0, 2, 4}, {1, 2, 3}, {1, 2, 4}.
 //There is no non-overlapping set with four segments.
 def solution(A: Array[Int], B: Array[Int]): Int = {
-  if(A.length < 2) return A.length
+  if (A.length < 2) return A.length
   val pairs = A zip B
   var nonOverlapping = 1
   var previousEnd = B.head
-  for ((a,b) <- pairs.tail) {
-    if (a > previousEnd) {
-      nonOverlapping += 1
-      previousEnd = b
-    }
+  for {
+    (a, b) <- pairs.tail if a > previousEnd
+  } {
+    nonOverlapping += 1
+    previousEnd = b
   }
   nonOverlapping
 }
-solution(Array(1,3,7,9,9), Array(5,6,8,9,10))
+solution(Array(1, 3, 7, 9, 9), Array(5, 6, 8, 9, 10))
 solution(Array(), Array())
 //returns the size of a non-overlapping set containing a maximal number of segments.
 //should return 3
