@@ -12,21 +12,21 @@
 //
 //Triplet (5, 8, 10) is triangular.
 
-def solution(A: Array[Int]):Int = {
+def solution(A: Array[Int]): Int = {
   val L = A.length
-  if(L < 3) 0
-  else{
+  if (L < 3) 0
+  else {
     val sorted = A.sorted
-    for(i <- 0 until L - 2){
+    for (i <- 0 until L - 2) {
       val P = sorted(i).toLong
-      val Q = sorted(i+1).toLong
-      val R = sorted(i+2).toLong
-      if((P+Q>R)&&(R+Q>P)&&(P+R>Q)) return 1
+      val Q = sorted(i + 1).toLong
+      val R = sorted(i + 2).toLong
+      if ((P + Q > R) && (R + Q > P) && (P + R > Q)) return 1
     }
     0
   }
 }
-solution(Array(10,2,5,1,8,20))
+solution(Array(10, 2, 5, 1, 8, 20))
 //returns 1 if there exists a triangular triplet
 //for this array and returns 0 otherwise.
 //expected worst-case time complexity is O(N*log(N));

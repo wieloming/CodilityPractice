@@ -29,7 +29,7 @@
 //to K = 4. It is not possible to produce four such ropes.
 //
 def solution(K: Int, A: Array[Int]): Int = {
-  if (A.length == 1 && A.max >= K) return A.length
+  if (A.length == 1 && A.min >= K) return A.length
   var ropes = 0
   var curr = A.head
   for (a <- A.tail) {
