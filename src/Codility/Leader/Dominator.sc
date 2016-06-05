@@ -16,15 +16,14 @@
 
 import collection._
 
-def solution(A: Array[Int]) = {
-  val (_, occurences, index) =
-    A.indices.foldLeft(Map.empty[Int, Int].withDefaultValue(0), -1, -1) {
-      case ((m, maxCount, maxIndex), i) =>
-        val count = m(A(i)) + 1
-        if (count > maxCount) (m.updated(A(i), count), count, i)
-        else (m.updated(A(i), count), maxCount, maxIndex)
-    }
-  if (occurences > A.length / 2) index
+def solution(A: Array[Int]): Int = {
+  if(A.isEmpty) return -1
+  val freqs = A.foldLeft(mutable.Map[Int, Int]().withDefaultValue(0)) { (acc, el) =>
+    acc(el) += 1
+    acc
+  }
+  val dominator = freqs.maxBy(_._2)
+  if (dominator._2 > A.length / 2) A.indexOf(dominator._1)
   else -1
 }
 solution(Array(3, 4, 3, 2, 3, -1, 3, 3))
