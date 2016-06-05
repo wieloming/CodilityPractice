@@ -1,3 +1,4 @@
+//TODO: one more time
 //Fish number P is represented by A[P] and B[P].
 //Array A contains the sizes of the fish. All
 //its elements are unique. Array B contains the
@@ -19,22 +20,20 @@
 def solution(A: Array[Int], B: Array[Int]): Int = {
   var fighters = List[Int]()
   var eaten = 0
-  def fight(fish: Int):Unit = {
-    for(f <- fighters){
-      if(f > A(fish)){eaten += 1; return}
-      else if(f < A(fish)) {
-        eaten += 1
-        fighters = fighters.tail
-      }
+  def fight(i: Int): Unit = {
+    for (f <- fighters) {
+      eaten += 1
+      if (f > A(i)) return
+      else fighters = fighters.tail
     }
   }
-  for(fish <- A.indices){
-    if(B(fish) == 1) fighters = A(fish)::fighters
-    else if(fighters.nonEmpty) fight(fish)
+  for (i <- A.indices) {
+    if (B(i) == 1) fighters = A(i) :: fighters
+    else if (fighters.nonEmpty) fight(i)
   }
   A.length - eaten
 }
-solution(Array(4,3,2,1,5), Array(0,1,0,0,1))
+solution(Array(4, 3, 2, 1, 5), Array(0, 1, 0, 0, 1))
 //A[0] = 4    B[0] = 0
 //A[1] = 3    B[1] = 1
 //A[2] = 2    B[2] = 0

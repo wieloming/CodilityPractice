@@ -6,15 +6,15 @@ def solution(N: Int): Int = {
   var counting = false
   var counter = 0
   var maxCounter = 0
-  for(n <- binary.reverse){
-    if(counting){
-      if(n == '0') counter += 1
-      if(n == '1'){
-        if(maxCounter < counter) maxCounter = counter
+  for (n <- binary.reverse) {
+    if (counting) {
+      if (n == '0') counter += 1
+      if (n == '1') {
+        if (maxCounter < counter) maxCounter = counter
         counter = 0
       }
     }
-    if(n == '1') counting = true
+    if (n == '1') counting = true
   }
   maxCounter
 }

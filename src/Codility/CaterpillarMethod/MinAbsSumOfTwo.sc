@@ -15,12 +15,16 @@
 
 def solution(A: Array[Int]): Int = {
   val array = A.sorted
+  //(-10, -8, 3, 4, 5)
   var headIndex = 0
   var lastIndex = array.length - 1
+
   var min = Math.abs(array(headIndex) + array(lastIndex))
   while(headIndex <= lastIndex){
+    //update min
     val sum = array(headIndex) + array(lastIndex)
     min = Math.min(min, Math.abs(sum))
+
     if(sum > 0)  lastIndex -=1
     else headIndex += 1
   }

@@ -26,7 +26,8 @@ def solution(A: Array[Int], B: Array[Int]): Int = {
   var nonOverlapping = 1
   var previousEnd = B.head
   for {
-    (a, b) <- pairs.tail if a > previousEnd
+    (a, b) <- pairs.tail
+    if a > previousEnd
   } {
     nonOverlapping += 1
     previousEnd = b
