@@ -1,11 +1,16 @@
+def fibonacciOfLength(length: Int) = {
+  lazy val fibs: Stream[Int] = 0 #:: fibs.scanLeft(1)(_ + _)
+  val fibonacci = fibs.takeWhile(_ < length + 1).tail.tail
+  fibonacci.toList
+}
 //TODO: one more time
 //For example, consider array A such that:
 // 0 0 0 1 1 0 1 0 0 0 0
 //The frog can make three jumps of length F(5) = 5, F(3) = 2 and F(5) = 5.
 def solution(A: Array[Int]): Int = {
   if (A.isEmpty) return 1
-  lazy val fibs: Stream[Int] = 0 #:: fibs.scanLeft(1)(_ + _)
-  val fibonacci = fibs.takeWhile(_ < A.length + 1).tail.tail
+  val fibonacci = fibonacciOfLength(A.length)
+
   val minimumJumps = new Array[Int](A.length)
   var currentPositions = List[Int]()
   var nextPositions = List(-1)
@@ -16,12 +21,14 @@ def solution(A: Array[Int]): Int = {
     nextPositions = List[Int]()
     for {
       position <- currentPositions
-      jump <- fibonacci if position + jump <= A.length
+      jump <- fibonacci
+      newPositionIndex = position + jump
+      if newPositionIndex <= A.length
     } {
-      if (position + jump == A.length) return jumpsNumber
-      if (A(position + jump) == 1 && minimumJumps(position + jump) == 0) {
-        minimumJumps(position + jump) = jumpsNumber
-        nextPositions ::= position + jump
+      if (newPositionIndex == A.length) return jumpsNumber
+      if (A(newPositionIndex) == 1 && minimumJumps(newPositionIndex) == 0) {
+        minimumJumps(newPositionIndex) = jumpsNumber
+        nextPositions ::= newPositionIndex
       }
     }
   }

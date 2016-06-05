@@ -1,4 +1,3 @@
-//TODO: one more time
 //A non-empty zero-indexed array A consisting of N
 //integers is given. A pair of integers (P, Q), such
 //that 0 ≤ P ≤ Q < N, is called a slice of array A.

@@ -21,8 +21,7 @@
 import scala.collection.mutable
 
 def solution(A: Array[Int]): Array[Int] = {
-  val N = A.length
-  if (N == 1) return Array(0)
+  if (A.length == 1) return Array(0)
   val sorted = A.sorted(Ordering[Int].reverse).view
   val map = mutable.Map[Int, Int]()
   var previous = (Int.MinValue, Int.MinValue)
@@ -32,7 +31,7 @@ def solution(A: Array[Int]): Array[Int] = {
     else {
       val rest = sorted.drop(n + 1)
       val deviders = rest.count(el % _ == 0)
-      val res = N - 1 - deviders
+      val res = A.length - 1 - deviders
       map(el) = res
       previous = (sorted(n), res)
     }
