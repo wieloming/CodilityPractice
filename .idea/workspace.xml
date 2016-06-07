@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c75be2-f587-4cca-be45-b4e7268ad3f8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/Peaks.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Codility/TODO.sc" afterPath="$PROJECT_DIR$/src/Codility/TODO.sc" />
     </list>
@@ -33,7 +35,7 @@
       <file leaf-file-name="Brackets.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
+            <state relative-caret-position="0">
               <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding />
             </state>
@@ -263,18 +265,28 @@
       <file leaf-file-name="NumberSolitaire.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="27">
               <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODO.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TODO.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/TODO.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="234">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -307,7 +319,6 @@
         <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/CountFactors.sc" />
         <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/MinPerimeterRectangle.sc" />
         <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/Flags.sc" />
-        <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/Peaks.sc" />
         <option value="$PROJECT_DIR$/src/Codility/EuclideanAlgorithm/ChocolatesByNumbers.sc" />
         <option value="$PROJECT_DIR$/src/Codility/EuclideanAlgorithm/CommonPrimeDivisors.sc" />
         <option value="$PROJECT_DIR$/src/Codility/1.sc" />
@@ -345,12 +356,13 @@
         <option value="$PROJECT_DIR$/src/Codility/GreedyAlgorithms/MaxNonoverlappingSegments.sc" />
         <option value="$PROJECT_DIR$/src/Codility/Dupa.sc" />
         <option value="$PROJECT_DIR$/src/Codility/Leader/Dominator.sc" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Codility/FibonacciNumbers/FibFrog.sc" />
         <option value="$PROJECT_DIR$/src/Codility/SieveOfEratosthenes/CountNonDivisible.sc" />
         <option value="$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxSliceSum.sc" />
         <option value="$PROJECT_DIR$/src/Codility/FutureTraining/PolygonConcavityIndex.sc" />
+        <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/Peaks.sc" />
         <option value="$PROJECT_DIR$/src/Codility/TODO.sc" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -489,15 +501,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Codility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Iterations" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -935,14 +939,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Codility/CountingElements/MaxCounters.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/CountingElements/MissingInteger.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1101,7 +1097,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
+        <state relative-caret-position="0">
           <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding />
         </state>
@@ -1202,14 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxSliceSum.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1281,14 +1269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/Arrays/OddOccurrencesInArray.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -1313,10 +1293,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/Peaks.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/TODO.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="234">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
