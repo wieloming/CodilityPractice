@@ -57,8 +57,8 @@ def solution(S: String): Int = {
 }
 //that, given a string S consisting of N characters,
 //returns 1 if S is properly nested and 0 otherwise.
-solution("{[()()]}")
-solution("([)()]")
+solution("{[()()]}") == 1
+solution("([)()]") == 0
 //For example, given S = "{[()()]}", the function
 //should return 1 and given S = "([)()]", the function
 //should return 0, as explained above.
