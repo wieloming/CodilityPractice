@@ -1,4 +1,4 @@
-import scala.collection.mutable
+
 
 //You are given a non-empty zero-indexed array A consisting of N integers.
 //
@@ -22,27 +22,25 @@ import scala.collection.mutable
 //  Write a function:
 //
 def solution(A: Array[Int]): Array[Int] = {
-  val sorted = A.sorted
-  val res = collection.mutable.Map() ++ A.map(_ -> 0).toMap
-  println(res)
-
+  val sorted = A.sorted(Ordering[Int].reverse)
+  val res = collection.mutable.Map[Int, Int]().withDefaultValue(0)
   //1, 2, 3, 6
-  //  var previous = Int.MinValue
+
   for {
-    i <- A.indices
+    i <- 0 until A.length - 1
     j <- i + 1 until A.length
+    previous = if(i > 0) sorted(i-1) else Int.MinValue
+    if sorted(i) != previous
+    if sorted(i) % sorted(j) == 0
   } {
-    println(sorted(i) +" "+ sorted(j))
-    if (sorted(i) % sorted(j) != 0) {
       val value = sorted(i)
-      println(value)
       res(value) += 1
-    }
   }
-  println(res)
-  A.map(res)
+  A.map(i => A.length - 1 - res(i))
 }
 solution(Array(3, 1, 2, 3, 6))
+solution(Array())
+solution(Array(2,2,1,1))
 //
 //that, given a non-empty zero-indexed array A consisting of N integers, returns a
 // sequence of integers representing the amount of non-divisors.
