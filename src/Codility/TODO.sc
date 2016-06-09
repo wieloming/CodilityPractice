@@ -1,5 +1,4 @@
 
-
 //You are given a non-empty zero-indexed array A consisting of N integers.
 //
 //For each number A[i] such that 0 ≤ i < N, we want to count the number of elements of the array
@@ -28,13 +27,11 @@ def solution(A: Array[Int]): Array[Int] = {
 
   for {
     i <- 0 until A.length - 1
-    j <- i + 1 until A.length
     previous = if(i > 0) sorted(i-1) else Int.MinValue
     if sorted(i) != previous
-    if sorted(i) % sorted(j) == 0
   } {
       val value = sorted(i)
-      res(value) += 1
+      res(value) = sorted.drop(i + 1).count(value % _ == 0)
   }
   A.map(i => A.length - 1 - res(i))
 }
