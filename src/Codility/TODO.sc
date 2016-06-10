@@ -23,8 +23,6 @@
 def solution(A: Array[Int]): Array[Int] = {
   val sorted = A.sorted(Ordering[Int].reverse)
   val res = collection.mutable.Map[Int, Int]().withDefaultValue(0)
-  //1, 2, 3, 6
-
   for {
     i <- 0 until A.length - 1
     previous = if(i > 0) sorted(i-1) else Int.MinValue
