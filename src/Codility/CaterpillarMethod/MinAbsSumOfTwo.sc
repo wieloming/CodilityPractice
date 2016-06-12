@@ -31,6 +31,7 @@ def solution(A: Array[Int]): Int = {
   min
 }
 solution(Array(1,4,-3))
+solution(Array(1))
 solution(Array(-8,4,5,-10,3))
 //the function should return 1, as explained above.
 //A[0] = -8

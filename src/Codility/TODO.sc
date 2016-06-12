@@ -1,49 +1,47 @@
-//TODO: toooo slow
-//You have to climb up a ladder. The ladder has exactly N rungs,
-//numbered from 1 to N. With each step, you can ascend by one
-//or two rungs. More precisely:
+//There are N ropes numbered from 0 to N − 1, whose lengths
+// are given in a zero-indexed array A, lying on the floor
+// in a line. For each I (0 ≤ I < N), the length of rope I
+// on the line is A[I].
 //
-//with your first step you can stand on rung 1 or 2,
-//if you are on rung K, you can move to rungs K + 1 or K + 2,
-//finally you have to stand on rung N.
-//Your task is to count the number of different ways of
-//climbing to the top of the ladder.
+//We say that two ropes I and I + 1 are adjacent. Two adjacent
+// ropes can be tied together with a knot, and the length
+// of the tied rope is the sum of lengths of both ropes.
+// The resulting new rope can then be tied again.
 //
-//For example, given N = 4, you have five different ways of climbing, ascending by:
+//For a given integer K, the goal is to tie the ropes in such
+//a way that the number of ropes whose length is greater than
+//or equal to K is maximal.
 //
-//1, 1, 1 and 1 rung,
-//1, 1 and 2 rungs,
-//1, 2 and 1 rung,
-//2, 1 and 1 rungs, and
-//2 and 2 rungs.
-//Given N = 5, you have eight different ways of climbing
-
-//The number of different ways can be very large, so it
-//is sufficient to return the result modulo 2P, for a given integer P.
-
-def solution(A: Array[Int], B: Array[Int]): Array[Int] = {
-  def combinations(money: Int): Int = {
-    if (money == 0) 1
-    else if (money < 0) 0
-    else combinations(money -1) + combinations(money - 2)
+//A[0] = 1
+//A[1] = 2
+//A[2] = 3
+//A[3] = 4
+//A[4] = 1
+//A[5] = 1
+//A[6] = 3
+//rope 1 with rope 2 to produce a rope of length A[1] + A[2] = 5;
+//rope 4 with rope 5 with rope 6 to produce a rope of
+//length A[4] + A[5] + A[6] = 5.
+//After that, there will be three ropes whose lengths are greater than or
+//equal to K = 4. It is not possible to produce four such ropes.
+def solution(K: Int, A: Array[Int]): Int = {
+  var lines = 0
+  var currrent = 0
+  for (line <- A) {
+    val newLine = currrent + line
+    if (newLine >= K) {
+      lines += 1
+      currrent = 0
+    } else {
+      currrent = newLine
+    }
   }
-  val ways = Stream.from(1).map(combinations)
-  (A zip B) map {case(a, b) => ways(a-1) % Math.pow(2, b).toInt}
+  lines
 }
-
-solution(Array(4,4,5,5,1), Array(3,2,4,3,1))
+solution(4, Array(1, 2, 3, 4, 1, 1, 3))
+solution(4, Array(1))
 //
-//that, given two non-empty zero-indexed arrays A and B of L integers,
-//returns an array consisting of L integers specifying the consecutive
-//answers; position I should contain the number of different ways of
-//climbing the ladder with A[I] rungs modulo 2B[I].
-//
-//For example, given L = 5 and:
-//A[0] = 4   B[0] = 3
-//A[1] = 4   B[1] = 2
-//A[2] = 5   B[2] = 4
-//A[3] = 5   B[3] = 3
-//A[4] = 1   B[4] = 1
-//the function should return the sequence [5, 1, 8, 0, 1], as explained above.
-
-//  expected worst-case time complexity is O(L);
+//that, given an integer K and a non-empty zero-indexed array A of N integers,
+//returns the maximum number of ropes of length greater than or equal to K
+//that can be created.
+//expected worst-case time complexity is O(N);

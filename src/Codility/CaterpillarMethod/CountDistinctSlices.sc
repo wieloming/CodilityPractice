@@ -17,7 +17,7 @@
 //The goal is to calculate the number of distinct slices.
 //
 def solution(M: Int, A: Array[Int]): Int = {
-  val used = Array.ofDim[Boolean](M + 1)
+  val used = Array.fill(M + 1)(false)
   var distinctSliceNum = 0
   var backInd = 0
   def decrBack(backInd: Int) = {

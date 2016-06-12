@@ -29,17 +29,18 @@
 //to K = 4. It is not possible to produce four such ropes.
 //
 def solution(K: Int, A: Array[Int]): Int = {
-  if (A.length == 1 && A.min >= K) return A.length
-  var ropes = 0
-  var curr = A.head
-  for (a <- A.tail) {
-    if (curr + a < K) curr += a
-    else {
-      ropes += 1
-      curr = 0
+  var lines = 0
+  var currrent = 0
+  for (line <- A) {
+    val newLine = currrent + line
+    if (newLine >= K) {
+      lines += 1
+      currrent = 0
+    } else {
+      currrent = newLine
     }
   }
-  ropes
+  lines
 }
 solution(4, Array(1, 2, 3, 4, 1, 1, 3))
 solution(1, Array(1))
