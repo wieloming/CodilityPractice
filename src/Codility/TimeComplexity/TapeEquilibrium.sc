@@ -14,9 +14,9 @@
 //
 //Write a function:
 //
-def solution(A: Array[Int]): Int ={
-  if(A.length == 1) -1
-  else{
+def solution(A: Array[Int]): Int = {
+  if (A.length == 1) -1
+  else {
     //parts:
     val first = A.head
     val second = A.sum - first
@@ -30,9 +30,9 @@ def solution(A: Array[Int]): Int ={
     minDifference
   }
 }
-solution(Array(3,1,2,4,3))
+solution(Array(3, 1, 2, 4, 3))
 solution(Array(3))
-solution(Array(3,1))
+solution(Array(3, 1))
 solution(Array(-1000, 1000))
 solution(Array(-10, -20, -30, -40, 100))
 //that, given a non-empty zero-indexed array A of N integers, returns the minimal difference

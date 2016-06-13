@@ -11,49 +11,29 @@
 //
 //For example, the string "{[()()]}" is properly nested but "([)()]" is not.
 def solution(S: String): Int = {
-  var firstType = 0
-  var secondType = 0
-  var thirdType = 0
-  if (S.isEmpty) 1
-  else {
-    var lastOpened = List[Int]()
-    def canBeClosed(n: Int, typ: Int) = {
-      typ > 0 && lastOpened.nonEmpty && lastOpened.head == n
-    }
-    for (n <- S) {
-      n match {
-        case '(' =>
-          lastOpened = 1 :: lastOpened
-          firstType += 1
-        case ')' =>
-          if (canBeClosed(1, firstType)) {
-            lastOpened = lastOpened.tail
-            firstType -= 1
-          }
-          else return 0
-        case '[' =>
-          lastOpened = 2 :: lastOpened
-          secondType += 1
-        case ']' =>
-          if (canBeClosed(2, secondType)) {
-            lastOpened = lastOpened.tail
-            secondType -= 1
-          }
-          else return 0
-        case '{' =>
-          lastOpened = 3 :: lastOpened
-          thirdType += 1
-        case '}' =>
-          if (canBeClosed(3, thirdType)) {
-            lastOpened = lastOpened.tail
-            thirdType -= 1
-          }
-          else return 0
+  def rec(S: List[Char], first: Int, second: Int, third: Int, lastOpened: List[Int]): Int = {
+    if (S.isEmpty) 1
+    else {
+      def canBeClosed(n: Int, typ: Int) = typ > 0 && lastOpened.nonEmpty && lastOpened.head == n
+      S match {
+        case '(' :: tail =>
+          rec(tail, first + 1, second, third, 1 :: lastOpened)
+        case ')' :: tail if canBeClosed(1, first) =>
+          rec(tail, first - 1, second, third, lastOpened.tail)
+        case '[' :: tail =>
+          rec(tail, first, second + 1, third, 2 :: lastOpened)
+        case ']' :: tail if canBeClosed(2, second) =>
+          rec(tail, first, second - 1, third, lastOpened.tail)
+        case '{' :: tail =>
+          rec(tail, first, second, third + 1, 3 :: lastOpened)
+        case '}' :: tail if canBeClosed(3, third) =>
+          rec(tail, first, second, third - 1, lastOpened.tail)
+        case Nil if first == 0 && second == 0 && third == 0 => 1
+        case _ => 0
       }
     }
-    if (firstType == 0 && secondType == 0 && thirdType == 0) 1
-    else 0
   }
+  rec(S.toList, 0, 0, 0, List.empty)
 }
 //that, given a string S consisting of N characters,
 //returns 1 if S is properly nested and 0 otherwise.
