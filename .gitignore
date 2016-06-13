@@ -2,7 +2,6 @@
 /src/Codility/Real
 /.idea
 # Created by .ignore support plugin (hsz.mobi)
-/src/Codility/DynamicProgramming/MinAbsSum.sc
 /src/Codility/IndeedPrimeChallenge/DwarfsRafting.sc
 /.idea/workspace.xml
 /target
