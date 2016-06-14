@@ -1,4 +1,3 @@
-//TODO: can be done by simple recursion... but now I am to tired...
 //A string S consisting of N characters is
 //considered to be properly nested if any
 //of the following conditions is true:
