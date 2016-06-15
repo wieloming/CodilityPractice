@@ -1,13 +1,15 @@
-def solution(N: Int, M: Int): Int = {
-  val array = Array.fill[Int](N)(1)
-  var i = 0
-  var eaten = 0
-  while(array(i % N) != 0){
-    array(i % N) = 0
-    i += M
-    eaten += 1
+import Utils.Performance._
+
+def solution(A: Array[Int]): Int = {
+  val set = scala.collection.mutable.Set[Int]()
+  for (i <- A) {
+    set.add(Math.abs(i))
   }
-  eaten
+  set.size
+}
+def solution2(A: Array[Int]): Int = {
+  A.map(Math.abs).distinct.length
 }
 
-solution(10, 4)
+time(solution(Array(-5, -3, -1, 0, 3, 6)), 100000)
+time(solution2(Array(-5, -3, -1, 0, 3, 6)), 100000)

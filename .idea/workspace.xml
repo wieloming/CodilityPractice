@@ -33,8 +33,8 @@
       <file leaf-file-name="Brackets.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="486">
+              <caret line="18" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="MinAbsSumOfTwo.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="513">
               <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
@@ -283,8 +283,18 @@
       <file leaf-file-name="TODO.sc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Codility/TODO.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="81">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NailingPlanks.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Codility/BinarySearchAlgorithm/NailingPlanks.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -293,8 +303,8 @@
       <file leaf-file-name="ChocolatesByNumbers.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codility/EuclideanAlgorithm/ChocolatesByNumbers.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="729">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -330,7 +340,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Codility/Ladder/EquiLeader.sc" />
         <option value="$PROJECT_DIR$/src/Codility/MaximumSliceProblem/MaxDoubleSliceSum.sc" />
         <option value="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.6-sources.jar!/scala/collection/TraversableLike.scala" />
         <option value="$PROJECT_DIR$/src/Codility/PrimeAndCompositeNumbers/CountFactors.sc" />
@@ -380,6 +389,7 @@
         <option value="$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc" />
         <option value="$PROJECT_DIR$/src/Codility/DynamicProgramming/MinAbsSum.sc" />
         <option value="$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc" />
+        <option value="$PROJECT_DIR$/src/Utils/Performance.scala" />
         <option value="$PROJECT_DIR$/src/Codility/TODO.sc" />
       </list>
     </option>
@@ -448,9 +458,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -466,6 +473,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CodilityPractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodilityTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodilityPractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,6 +536,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,18 +546,21 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="Ch&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityPractice/src/Codility/EuclideanAlgorithm/ChocolatesByNumbers.sc&#10;Fish&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityPractice/src/Codility/StacksAndQueues/Fish.sc&#10;Peaks&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityTraining/src/Codility/PrimeAndCompositeNumbers/Peaks.sc&#10;Frog&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityTraining/src/Codility/FibonacciNumbers/FibFrog.sc&#10;Fro&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityTraining/src/Codility/TimeComplexity/FrogJump.sc&#10;MinM&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityTraining/src/Codility/BinarySearchAlgorithm/MinMaxDivision.sc" />
+    <property name="SearchEverywhereHistoryKey" value="Nail&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityPractice/src/Codility/BinarySearchAlgorithm/NailingPlanks.sc&#10;Ch&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityPractice/src/Codility/EuclideanAlgorithm/ChocolatesByNumbers.sc&#10;Fish&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityPractice/src/Codility/StacksAndQueues/Fish.sc&#10;Peaks&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityTraining/src/Codility/PrimeAndCompositeNumbers/Peaks.sc&#10;Frog&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityTraining/src/Codility/FibonacciNumbers/FibFrog.sc&#10;Fro&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityTraining/src/Codility/TimeComplexity/FrogJump.sc&#10;MinM&#9;FILE&#9;file://C:/Users/Lukasz/Desktop/JaVa/Scala/CodilityTraining/src/Codility/BinarySearchAlgorithm/MinMaxDivision.sc" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lukasz\Desktop\JaVa\Scala\CodilityTraining\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lukasz\Desktop\JaVa\Scala\CodilityTraining\src\Codility\Real" />
       <recent name="C:\Users\Lukasz\Desktop\JaVa\Scala\CodilityTraining\src\Codility" />
       <recent name="C:\Users\Lukasz\Desktop\JaVa\Scala\CodilityTraining\src\Codility\CountingElements" />
+      <recent name="C:\Users\Lukasz\Desktop\JaVa\Scala\CodilityTraining\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lukasz\Desktop\JaVa\Scala\CodilityTraining\src" />
     </key>
   </component>
@@ -878,8 +909,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1695279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32516703" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -894,6 +924,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32516703" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -947,14 +978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Codility/DynamicProgramming/NumberSolitaire.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/FutureTraining/PolygonConcavityIndex.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1095,18 +1118,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codility/BinarySearchAlgorithm/NailingPlanks.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,17 +1317,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/CaterpillarMethod/MinAbsSumOfTwo.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="513">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
@@ -1320,16 +1327,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/EuclideanAlgorithm/ChocolatesByNumbers.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="729">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/StacksAndQueues/Brackets.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/Performance.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codility/BinarySearchAlgorithm/NailingPlanks.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codility/TODO.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="81">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="10" />
           <folding />
         </state>
       </provider>
