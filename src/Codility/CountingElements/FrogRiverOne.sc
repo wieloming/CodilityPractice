@@ -3,14 +3,14 @@
 //in every position across the river.
 import scala.collection.mutable
 def solution(X: Int, A: Array[Int]): Int = {
-  val road = mutable.Map[Int, Int]()
+  val firstIndexesOf = mutable.Map[Int, Int]()
   var index = 0
   for(n <- A){
-    if(!road.isDefinedAt(n)) road(n) = index
+    if(!firstIndexesOf.isDefinedAt(n)) firstIndexesOf(n) = index
     index += 1
   }
-  if(road.keys.toList.sorted == (1 to X).toList)
-    road.values.max
+  if(firstIndexesOf.keys.toList.sorted == (1 to X).toList)
+    firstIndexesOf.values.max
   else -1
 }
 //

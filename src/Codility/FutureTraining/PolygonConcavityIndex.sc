@@ -1,3 +1,5 @@
+import scala.language.postfixOps
+
 //A polygon is convex if and only if, for any edge of the polygon,
 //all vertices belong to the semiplane whose boundary contains the edge.
 //

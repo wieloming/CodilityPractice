@@ -1,3 +1,5 @@
+import scala.language.implicitConversions
+
 class Tree(var x: Int, var l: Tree, var r: Tree)
 
 def solution(T: Tree): Int = {

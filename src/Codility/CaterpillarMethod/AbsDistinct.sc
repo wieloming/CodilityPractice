@@ -12,6 +12,13 @@
 def solution(A: Array[Int]): Int = {
   A.map(Math.abs).distinct.length
 }
+def solution2(A: Array[Int]): Int = {
+  val set = scala.collection.mutable.Set[Int]()
+  for (i <- A) {
+    set.add(Math.abs(i))
+  }
+  set.size
+}
 solution(Array(-5,-3,-1,0,3,6))
 //the function should return 5, as explained above.
 
